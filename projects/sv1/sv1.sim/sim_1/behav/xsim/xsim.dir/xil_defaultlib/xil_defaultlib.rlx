@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/DVCON/RTL_Vivado/projects/sv1/sv1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+D:/DVCON/RTL_Vivado/src/full_adder.sv,1696822352,systemVerilog,,D:/DVCON/RTL_Vivado/src/n_adder.sv,,full_adder;full_adder_2,,uvm,,,,,,
+D:/DVCON/RTL_Vivado/src/full_adder_tb.sv,1716010742,systemVerilog,,,,full_adder_tb,,uvm,,,,,,
+D:/DVCON/RTL_Vivado/src/n_adder.sv,1716017190,systemVerilog,,D:/DVCON/RTL_Vivado/src/n_adder_tb.sv,,n_adder,,uvm,,,,,,
+D:/DVCON/RTL_Vivado/src/n_adder_tb.sv,1716017072,systemVerilog,,,,n_adder_tb,,uvm,,,,,,

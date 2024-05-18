@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/full_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module full_adder_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/n_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_adder
+WARNING: [VRFC 10-3467] initial value of parameter 'N' is omitted [D:/DVCON/RTL_Vivado/src/n_adder.sv:2]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/n_adder_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_adder_tb
