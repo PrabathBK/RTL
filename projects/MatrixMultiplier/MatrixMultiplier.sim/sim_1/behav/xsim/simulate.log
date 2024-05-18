@@ -1,0 +1,61 @@
+Time resolution is 1 ps
+'{'{-54,-87},'{-54,-87}}
+Error: Assertion violation
+Time: 56 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{91,107},'{91,107}}
+Error: Assertion violation
+Time: 86 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{79,88},'{79,88}}
+Error: Assertion violation
+Time: 116 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{28,126},'{28,126}}
+Error: Assertion violation
+Time: 146 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-103,-70},'{-103,-70}}
+Error: Assertion violation
+Time: 176 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-12,12},'{-12,12}}
+Error: Assertion violation
+Time: 206 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-41,123},'{-41,123}}
+Error: Assertion violation
+Time: 236 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-74,94},'{-74,94}}
+Error: Assertion violation
+Time: 266 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{95,66},'{95,66}}
+Error: Assertion violation
+Time: 296 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-102,-58},'{-102,-58}}
+Error: Assertion violation
+Time: 326 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-107,-70},'{-107,-70}}
+Error: Assertion violation
+Time: 356 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{88,84},'{88,84}}
+Error: Assertion violation
+Time: 386 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{48,56},'{48,56}}
+Error: Assertion violation
+Time: 416 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{44,88},'{44,88}}
+Error: Assertion violation
+Time: 446 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{7,-10},'{7,-10}}
+Error: Assertion violation
+Time: 476 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-125,85},'{-125,85}}
+Error: Assertion violation
+Time: 506 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-47,-93},'{-47,-93}}
+Error: Assertion violation
+Time: 536 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-105,-93},'{-105,-93}}
+Error: Assertion violation
+Time: 566 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{84,32},'{84,32}}
+Error: Assertion violation
+Time: 596 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv
+'{'{-8,-48},'{-8,-48}}
+Error: Assertion violation
+Time: 626 ns  Iteration: 0  Process: /matmul_tb/Initial79_1  File: D:/DVCON/RTL_Vivado/src/matmul_tb.sv

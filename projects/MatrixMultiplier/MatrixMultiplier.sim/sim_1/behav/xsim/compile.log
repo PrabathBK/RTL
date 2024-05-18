@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/matmul_tb.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3467] initial value of parameter 'WIDTH' is omitted [D:/DVCON/RTL_Vivado/src/matmul_tb.sv:2]
+INFO: [VRFC 10-311] analyzing module matmul_tb

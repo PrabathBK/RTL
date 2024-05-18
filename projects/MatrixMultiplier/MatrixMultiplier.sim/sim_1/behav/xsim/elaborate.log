@@ -1,0 +1,64 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_11 -L c_reg_fd_v12_0_7 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_pipe_v3_0_7 -L xbip_dsp48_addsub_v3_0_7 -L xbip_addsub_v3_0_7 -L c_addsub_v12_0_16 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot matmul_tb_behav xil_defaultlib.matmul_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'p' [D:/DVCON/RTL_Vivado/src/matmul.sv:30]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/DVCON/RTL_Vivado/src/matmul_tb.sv" Line 32. Module matmul_tb has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/DVCON/RTL_Vivado/src/matmul_tb.sv" Line 32. Module matmul_tb has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/DVCON/RTL_Vivado/projects/MatrixMultiplier/MatrixMultiplier.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/DVCON/RTL_Vivado/projects/MatrixMultiplier/MatrixMultiplier.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_11.xbip_utils_v3_0_11_pkg
+Compiling package mult_gen_v12_0_19.mult_gen_v12_0_19_viv_comp
+Compiling package mult_gen_v12_0_19.mult_gen_v12_0_19_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_viv_comp
+Compiling package xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv_comp
+Compiling package xbip_addsub_v3_0_7.xbip_addsub_v3_0_7_viv_comp
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_pkg
+Compiling package c_addsub_v12_0_16.c_addsub_v12_0_16_pkg_legacy
+Compiling package c_reg_fd_v12_0_7.c_reg_fd_v12_0_7_viv_comp
+Compiling package xil_defaultlib.$unit_matmul_tb_sv
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_19.op_resize [\op_resize(ai_width=8,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_19.luts [\luts(c_xdevicefamily="zynq",c_a...]
+Compiling architecture xilinx of entity mult_gen_v12_0_19.mult_gen_v12_0_19_viv [\mult_gen_v12_0_19_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_19.mult_gen_v12_0_19 [\mult_gen_v12_0_19(c_xdevicefami...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_7.c_reg_fd_v12_0_7_viv [\c_reg_fd_v12_0_7_viv(c_width=8,...]
+Compiling architecture rtl of entity c_addsub_v12_0_16.c_addsub_v12_0_16_lut6_legacy [\c_addsub_v12_0_16_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_fabric_legacy [\c_addsub_v12_0_16_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_legacy [\c_addsub_v12_0_16_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_16.c_addsub_v12_0_16_viv [\c_addsub_v12_0_16_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_16.c_addsub_v12_0_16 [\c_addsub_v12_0_16(c_xdevicefami...]
+Compiling architecture c_addsub_1_arch of entity xil_defaultlib.c_addsub_1 [c_addsub_1_default]
+Compiling module xil_defaultlib.matmul(N=2,WIDTH=8)
+Compiling module xil_defaultlib.matmul_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matmul_tb_behav
