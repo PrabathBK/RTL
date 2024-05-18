@@ -1,0 +1,4 @@
+Running: xsim.dir/p2s_tb_behav/xsimk.exe -simmode gui -wdb p2s_tb_behav.wdb -simrunnum 0 -socket 4747
+Design successfully loaded
+Design Loading Memory Usage: 8664 KB (Peak: 8664 KB)
+Design Loading CPU Usage: 0 ms
