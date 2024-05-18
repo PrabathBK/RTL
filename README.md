@@ -14,7 +14,7 @@ To work with these examples, you need to have the following installed:
 
 1. Clone this repository to your local machine:
     ```sh
-    git clone https://github.com/yourusername/system-verilog-examples.git
+    git clone https://github.com/PrabathBK/RTL_Vivado.git
     ```
 
 2. Open Vivado and create a new project.
