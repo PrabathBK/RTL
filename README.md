@@ -8,7 +8,7 @@ This repository contains examples of System Verilog projects implemented using V
 
 To work with these examples, you need to have the following installed:
 
-- [Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html) (version 2023.2 or later)
+- [Vivado Design Suite](https://www.xilinx.com/products/design-tools/vivado.html) 
 
 ### Installation
 
