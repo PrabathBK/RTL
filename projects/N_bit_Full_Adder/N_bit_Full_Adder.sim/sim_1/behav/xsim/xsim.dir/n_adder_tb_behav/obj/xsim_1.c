@@ -54,8 +54,7 @@
 #endif
 typedef void (*funcp)(char *, char *);
 extern int main(int, char**);
-IKI_DLLESPEC extern void execute_4(char*, char *);
-IKI_DLLESPEC extern void execute_22(char*, char *);
+IKI_DLLESPEC extern void execute_21(char*, char *);
 IKI_DLLESPEC extern void execute_76(char*, char *);
 IKI_DLLESPEC extern void execute_77(char*, char *);
 IKI_DLLESPEC extern void execute_78(char*, char *);
@@ -69,7 +68,7 @@ IKI_DLLESPEC extern void execute_72(char*, char *);
 IKI_DLLESPEC extern void execute_73(char*, char *);
 IKI_DLLESPEC extern void execute_74(char*, char *);
 IKI_DLLESPEC extern void execute_75(char*, char *);
-IKI_DLLESPEC extern void execute_7(char*, char *);
+IKI_DLLESPEC extern void execute_6(char*, char *);
 IKI_DLLESPEC extern void execute_44(char*, char *);
 IKI_DLLESPEC extern void execute_45(char*, char *);
 IKI_DLLESPEC extern void execute_46(char*, char *);
@@ -84,7 +83,8 @@ IKI_DLLESPEC extern void execute_82(char*, char *);
 IKI_DLLESPEC extern void execute_83(char*, char *);
 IKI_DLLESPEC extern void execute_84(char*, char *);
 IKI_DLLESPEC extern void vlog_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
-funcp funcTab[30] = {(funcp)execute_4, (funcp)execute_22, (funcp)execute_76, (funcp)execute_77, (funcp)execute_78, (funcp)execute_42, (funcp)execute_43, (funcp)execute_68, (funcp)execute_69, (funcp)execute_70, (funcp)execute_71, (funcp)execute_72, (funcp)execute_73, (funcp)execute_74, (funcp)execute_75, (funcp)execute_7, (funcp)execute_44, (funcp)execute_45, (funcp)execute_46, (funcp)execute_38, (funcp)execute_39, (funcp)execute_40, (funcp)execute_41, (funcp)execute_79, (funcp)execute_80, (funcp)execute_81, (funcp)execute_82, (funcp)execute_83, (funcp)execute_84, (funcp)vlog_transfunc_eventcallback};
+IKI_DLLESPEC extern void vlog_transfunc_eventcallback_2state(char*, char*, unsigned, unsigned, unsigned, char *);
+funcp funcTab[30] = {(funcp)execute_21, (funcp)execute_76, (funcp)execute_77, (funcp)execute_78, (funcp)execute_42, (funcp)execute_43, (funcp)execute_68, (funcp)execute_69, (funcp)execute_70, (funcp)execute_71, (funcp)execute_72, (funcp)execute_73, (funcp)execute_74, (funcp)execute_75, (funcp)execute_6, (funcp)execute_44, (funcp)execute_45, (funcp)execute_46, (funcp)execute_38, (funcp)execute_39, (funcp)execute_40, (funcp)execute_41, (funcp)execute_79, (funcp)execute_80, (funcp)execute_81, (funcp)execute_82, (funcp)execute_83, (funcp)execute_84, (funcp)vlog_transfunc_eventcallback, (funcp)vlog_transfunc_eventcallback_2state};
 const int NumRelocateId= 30;
 
 void relocate(char *dp)
@@ -101,7 +101,7 @@ void sensitize(char *dp)
 
 void simulate(char *dp)
 {
-iki_register_root_pointers(3, 12680, 4,0,0,13048, 6,0,0,12864, 5,0,0) ; 
+iki_register_root_pointers(3, 13232, 6,0,0,13048, 5,0,0,12864, 4,0,0) ; 
 		iki_schedule_processes_at_time_zero(dp, "xsim.dir/n_adder_tb_behav/xsim.reloc");
 	// Initialize Verilog nets in mixed simulation, for the cases when the value at time 0 should be propagated from the mixed language Vhdl net
 	iki_execute_processes();
@@ -111,16 +111,16 @@ iki_register_root_pointers(3, 12680, 4,0,0,13048, 6,0,0,12864, 5,0,0) ;
 
 }
 #include "iki_bridge.h"
-void subprog_m_6ae781fa_9ad1ea13_6() ;
-void subprog_m_6ae781fa_9ad1ea13_5() ;
-void subprog_m_6ae781fa_9ad1ea13_4() ;
-void subprog_m_6ae781fa_9ad1ea13_11() ;
-void subprog_m_6ae781fa_9ad1ea13_10() ;
-void subprog_m_6ae781fa_9ad1ea13_9() ;
-void subprog_m_6ae781fa_9ad1ea13_14() ;
-static char* ng40[] = {(void *)subprog_m_6ae781fa_9ad1ea13_6, (void *)subprog_m_6ae781fa_9ad1ea13_5, (void *)subprog_m_6ae781fa_9ad1ea13_4};
-static char* ng50[] = {(void *)subprog_m_6ae781fa_9ad1ea13_11, (void *)subprog_m_6ae781fa_9ad1ea13_10, (void *)subprog_m_6ae781fa_9ad1ea13_9};
-static char* ng60[] = {(void *)subprog_m_6ae781fa_9ad1ea13_14};
+void subprog_m_71d31add_9ad1ea13_9() ;
+void subprog_m_71d31add_9ad1ea13_8() ;
+void subprog_m_71d31add_9ad1ea13_7() ;
+void subprog_m_71d31add_9ad1ea13_14() ;
+void subprog_m_71d31add_9ad1ea13_13() ;
+void subprog_m_71d31add_9ad1ea13_12() ;
+void subprog_m_71d31add_9ad1ea13_4() ;
+static char* ng40[] = {(void *)subprog_m_71d31add_9ad1ea13_9, (void *)subprog_m_71d31add_9ad1ea13_8, (void *)subprog_m_71d31add_9ad1ea13_7};
+static char* ng50[] = {(void *)subprog_m_71d31add_9ad1ea13_14, (void *)subprog_m_71d31add_9ad1ea13_13, (void *)subprog_m_71d31add_9ad1ea13_12};
+static char* ng60[] = {(void *)subprog_m_71d31add_9ad1ea13_4};
 void relocate(char *);
 
 void sensitize(char *);

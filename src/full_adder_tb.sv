@@ -4,13 +4,13 @@ module full_adder_tb;
 
   logic a=0, ci=0, b, sum, co; // b != 0, intentional
 
-  full_adder dut (.*);
-//  full_adder dut (.clk(clk),.a(a), .b(b), .c_in(c_in), .sum(sum), .c_out(c_out));
+  //full_adder dut (.*);
+  full_adder dut (.a(a), .b(b), .c_in(ci), .sum(sum), .c_out(co));
 
   initial begin // simulation starts
     $dumpfile("dump.vcd"); $dumpvars;
 
-    #30 a <= 0; b <= 0; ci <= 0;    
+    #20 a <= 0; b <= 0; ci <= 0;    
     #10 a <= 0; b <= 0; ci <= 1;
     
     #20 a <= 1; b <= 1; ci <= 0;

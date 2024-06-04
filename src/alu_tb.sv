@@ -11,7 +11,7 @@ class Random_Sel;
   endfunction
 endclass
 
-module alu_tb();
+ module alu_tb();
   timeunit 1ns/1ps;
   logic clk = 0;
   localparam CLK_PERIOD = 10;

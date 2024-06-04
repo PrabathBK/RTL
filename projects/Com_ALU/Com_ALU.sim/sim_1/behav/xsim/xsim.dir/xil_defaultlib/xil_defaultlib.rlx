@@ -2,6 +2,6 @@
 2020.2
 Oct 13 2023
 20:47:58
-D:/DVCON/RTL_Vivado/projects/Com_ALU/Com_ALU.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
-D:/DVCON/RTL_Vivado/src/alu.sv,1716021734,systemVerilog,D:/DVCON/RTL_Vivado/src/alu_tb.sv,D:/DVCON/RTL_Vivado/src/alu_tb.sv,,$unit_alu_sv_2883084129;alu,,uvm,,,,,,
-D:/DVCON/RTL_Vivado/src/alu_tb.sv,1716023324,systemVerilog,,,,alu_tb,,uvm,,,,,,
+D:/DVCON/VHDL/RTL/projects/Com_ALU/Com_ALU.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+D:/DVCON/VHDL/RTL/src/alu.sv,1716021734,systemVerilog,D:/DVCON/VHDL/RTL/src/alu_tb.sv,D:/DVCON/VHDL/RTL/src/alu_tb.sv,,$unit_alu_sv_2883084129;alu,,uvm,,,,,,
+D:/DVCON/VHDL/RTL/src/alu_tb.sv,1717407084,systemVerilog,,,,alu_tb,,uvm,,,,,,

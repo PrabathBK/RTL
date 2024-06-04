@@ -1,5 +1,5 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL/src/alu.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/RTL_Vivado/src/alu_tb.sv" into library xil_defaultlib
-WARNING: [VRFC 10-3467] initial value of parameter 'WIDTH' is omitted [D:/DVCON/RTL_Vivado/src/alu_tb.sv:1]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL/src/alu_tb.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3467] initial value of parameter 'WIDTH' is omitted [D:/DVCON/VHDL/RTL/src/alu_tb.sv:1]
 INFO: [VRFC 10-311] analyzing module alu_tb
